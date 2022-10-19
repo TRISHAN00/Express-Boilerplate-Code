@@ -7,4 +7,8 @@ router.get("/health", (_req, res) => {
   res.status(200).json({ message: "success" });
 });
 
+router.get("/help", (_req, res) => {
+  res.status(200).json({ message: "Help" });
+});
+
 module.exports = router;
